@@ -4,12 +4,25 @@
 ## Overwatch
   Chrome extension providing facial authentication and protection for defined sites
 
-- kairos api to provide authentication
+- facial recognition as authentication mechanism
 - extension permissions
    - camera
    - cookie
    - session
 - provide blocking mechanisms on UI
+
+
+POST /enroll
+
+    {
+      id: <user_hash>,
+      image: <base64_image>
+    }
+
+POST /auth  
+
+    { image: <base64_image> }
+
 
 
 
