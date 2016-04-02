@@ -2,7 +2,7 @@
 ---
 
 ## Overwatch
-  Chrome extension providing facial recognition for provided sites
+  Chrome extension providing facial authentication and protection for defined sites
 
 - kairos api to provide authentication
 - extension permissions
